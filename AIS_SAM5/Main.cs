@@ -15,7 +15,7 @@ namespace AIS_SAM5
         static void Main(string[] args)
         {
             List<Building> buildings = new List<Building>();
-            AnimatedTextWriter.enableAnimation = false;
+            AnimatedTextWriter.enableAnimation = true;
             
             int textDrawingTime = 15;
 
